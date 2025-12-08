@@ -36,7 +36,7 @@ const Menu = ({ dishes }) => {
       </div>
 
       <footer className="menu__footer">
-        <p>Alle priser er inkludert mva.</p>
+        <p>Velkommen til å nyte god mat og drikke hos oss!</p>
       </footer>
     </div>
   );

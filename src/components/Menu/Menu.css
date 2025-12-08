@@ -1,0 +1,130 @@
+.menu {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.menu__header {
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+}
+
+.menu__title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.menu__subtitle {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.menu__divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(
+    to right,
+    var(--color-accent),
+    var(--color-secondary)
+  );
+  margin: 1.5rem auto 0;
+  border-radius: 2px;
+}
+
+.menu__content {
+  margin-top: 2rem;
+}
+
+.menu__section {
+  margin-bottom: 3.5rem;
+}
+
+.menu__category {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--color-border);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: var(--color-secondary);
+}
+
+.menu__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.menu__footer {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  border-top: 1px solid var(--color-border);
+  margin-top: 2rem;
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .menu {
+    padding: 1.5rem;
+  }
+
+  .menu__header {
+    padding: 3.5rem 1rem 2.5rem;
+  }
+
+  .menu__title {
+    font-size: 3rem;
+  }
+
+  .menu__subtitle {
+    font-size: 1.125rem;
+  }
+
+  .menu__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .menu {
+    padding: 2rem;
+  }
+
+  .menu__header {
+    padding: 4.5rem 1rem 3rem;
+  }
+
+  .menu__title {
+    font-size: 3.5rem;
+  }
+
+  .menu__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .menu__section {
+    margin-bottom: 4rem;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1280px) {
+  .menu__grid {
+    gap: 2.5rem;
+  }
+}
