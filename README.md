@@ -14,3 +14,45 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+File structure:
+
+```
+restaurantmenu/
+├── node_modules
+├── public/
+│   └── assets/
+│       ├── 1.webp
+│       ├── 2.webp
+│       ├── 3.webp
+│       ├── 4.webp
+│       ├── 5.webp
+│       ├── 6.webp
+│       ├── 7.webp
+│       ├── 8.webp
+│       ├── 9.webp
+│       └── 10.webp
+├── src/
+│   ├── main.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── data/
+│   │   └── menuData.js
+│   └── components/
+│       ├── Menu/
+│       │   ├── Menu.jsx
+│       │   └── Menu.css
+│       └── Dish/
+│           ├── Dish.jsx
+│           └── Dish.css
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+```
