@@ -2,7 +2,7 @@ import React from 'react';
 import './Dish.css';
 
 const Dish = ({ dish }) => {
-  const imageUrl = `/assets/${dish.id}.webp`;
+  const imageUrl = `${import.meta.env.BASE_URL}assets/${dish.id}.webp`;
 
   return (
     <article className="dish">
